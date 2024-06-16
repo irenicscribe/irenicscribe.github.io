@@ -1,10 +1,11 @@
-import type { Metadata, Site, Socials } from "@types";
+import type { Metadata, Site } from "@types";
 
 export const SITE: Site = {
   TITLE: "Irenic Scribe",
   DESCRIPTION: "A blog about philosophy, theology, and exegetical thoughts on the Bible.",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 0,
+  EMAIL: "nobody@test.com"
 };
 
 export const HOME: Metadata = {
